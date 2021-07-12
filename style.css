@@ -101,5 +101,19 @@ img {
         width: 100%;
         }
 
+        .row > .left,
+        .row > .right,
+        .row >.central,
+        .row > .first,
+        .row > .second,
+        .row > .third {
+            margin: 33px 0px;
+        }
+
+        #why .row,
+        #steps .row {
+            background-color: #f9f9f9;
+        }
+
 
 }
