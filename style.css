@@ -71,3 +71,35 @@ img {
 .clear {
   clear: both;
 }
+
+/* Desktop First */
+
+@media screen and (max-width: 420px)  {
+
+
+        .row {
+          width: 420px;
+          margin-top: 0px;
+          /* margin-left: auto;
+          margin-right: auto; */
+        }
+
+        #lezioni .row h1 {
+          margin: 50px 0px;
+        }        
+
+        #lezioni .row>.left,
+        #lezioni .row>.right {
+        width: 100%;
+        float: left; 
+        }
+
+        #steps .row>.left,
+        #steps .row>.central,
+        #steps .row>.right {
+        float: left;
+        width: 100%;
+        }
+
+
+}
